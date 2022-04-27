@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [        
+    {
+            //Admin - Portugal2022
+            "type": "al",
+            "request": "launch",
+            "name": "Frans",
+            "server": "https://dev000.westeurope.cloudapp.azure.com/fransdev",
+            "serverInstance": "fransdev",
+            "port": 443,
+            "authentication": "UserPassword",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "tenant": "default",
+            "enableSqlInformationDebugger": true
+        }
+    ]
+}
