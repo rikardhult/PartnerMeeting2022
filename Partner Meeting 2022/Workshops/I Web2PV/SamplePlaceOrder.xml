@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceOrder xmlns="urn:web2pv:gateway:placeorder:1" xmlns:core="urn:web2pv:core:1">
+  <FrontendID>LISBON</FrontendID>
+  <CustomerID>10000</CustomerID>
+  <ContactID>CT0001</ContactID>
+  <RequestNo>WEBREQ001</RequestNo>
+  <Shipment>
+	  <AddressCode>001</AddressCode>
+	  <Company>Company 1234</Company>
+	  <Address>Address 1234</Address>
+	  <PostCode>AA1234</PostCode>
+	  <City>City 1234</City>
+	  <Country>Country</Country>
+	  <County>County</County>
+	  <ContactName>Jane Doe</ContactName>
+	  <ContactPhone>+45 123456789</ContactPhone>
+	  <ContactEmail>abc@contoso.com</ContactEmail>
+  </Shipment>
+  <Payment Status="Paid" ReferenceNo="ABC123456789"/>
+  <Notes>
+    <Note>Comment 1</Note>
+    <Note>Comment 2</Note>
+  </Notes>
+  <OrderLines>
+    <OrderLine LineNo="10000">
+      <ItemNo>1896-S</ItemNo>
+	    <Quantity>300</Quantity>
+	    <CaseID>123</CaseID>
+	    <JobID>1</JobID>
+	    <UnitPrice>123.45</UnitPrice>
+	    <LineAmount>37035</LineAmount>
+	    <DeliveryDate>2013-11-01</DeliveryDate>
+    </OrderLine>
+    <OrderLine>
+      <ItemNo>1900-S</ItemNo>
+	    <Quantity>200</Quantity>
+	    <UnitPrice>20</UnitPrice>
+	    <LineAmount>4000</LineAmount>
+	    <DeliveryDate>2013-12-01</DeliveryDate>
+    </OrderLine>
+  </OrderLines>
+</PlaceOrder>
